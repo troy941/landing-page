@@ -53,14 +53,62 @@ a:visited {
     color: #f9faf8;
 }
 
+.middle-header {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+    text-align: center;
+}
+
 .tokyo {
     height: 200px;
-    width: auto;
+    width: auto
 }
 
 .top-button {
     background-color: #3882F6;
     color: #f9faf8;
-    border-radius: 8px;
+    border-radius: 6px;
     font-weight: 700;
+    border: none;
+    font-size: 16px;
+}
+
+.wrap-img {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 24px;
+    justify-content: center;
+    text-align: center;
+}
+
+.grid {
+    height: 300px;
+    width: 300px;
+    border: 3px #3882F6 solid;
+    border-radius: 8px;
+}
+
+.lower-content {
+    background-color: #E5E7Eb;
+    display: flex;
+    flex-direction: column;
+}
+
+.filler {
+    width: 624px;
+    align-self: center;
+
+}
+
+.quote {
+    font-size: 36px;
+    font-weight: 100;  
+}
+
+.author {
+    font-size: 26px;
+    font-weight: 900;
+    text-align: end;
 }
