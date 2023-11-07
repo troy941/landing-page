@@ -60,6 +60,10 @@ a:visited {
     color: #f9faf8;
 }
 
+.top-text {
+    width: 425px;
+}
+
 .middle-header {
     font-size: 36px;
     font-weight: 900;
@@ -114,7 +118,8 @@ a:visited {
 
 .quote {
     font-size: 30px;
-    font-weight: 100;  
+    font-weight: 100;
+    text-align: left;  
 }
 
 .author {
