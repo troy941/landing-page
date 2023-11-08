@@ -104,6 +104,10 @@ a:visited {
     border-radius: 8px;
 }
 
+p {
+    width: 150px;
+}
+
 .lower-content {
     background-color: #E5E7Eb;
     display: flex;
@@ -117,14 +121,14 @@ a:visited {
 }
 
 .quote {
-    font-size: 30px;
+    font-size: 28px;
     font-weight: 100;
     text-align: left;  
 }
 
 .author {
-    font-size: 26px;
-    font-weight: 900;
+    font-size: 24px;
+    font-weight: 700;
     text-align: end;
 }
 
